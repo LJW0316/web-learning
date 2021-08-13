@@ -1,0 +1,153 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: sofiapro-light, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+h1, h2, h3 {
+    font-family: Lovato-Light, serif;
+}
+
+h1 {
+    font-size: 4.3rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+/* Layout */
+
+section {
+    float: left;
+    width: 50%;
+    font-size: 1.8rem;
+    text-indent: 20px;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+
+header, section, aside, nav, footer {
+    padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+    font-family: 'Lovato-Light';
+    src: url('Lovato/Web Fonts/lovato_light_macroman/Lovato-Light-webfont.woff2') format('woff2'),
+    url('Lovato/Web Fonts/lovato_light_macroman/Lovato-Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sofiapro-light';
+    src: url('Sofia Pro/Web Fonts/sofiapro_light_macroman/sofiapro-light-webfont.woff2') format('woff2'),
+    url('Sofia Pro/Web Fonts/sofiapro_light_macroman/sofiapro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+a:link {
+    color: #aa6666;
+}
+
+a:visited {
+    color: #fb6542;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    background-color: blanchedalmond;
+}
+
+a[href*="http"] {
+    background: url("icons8-external-link-26.png") no-repeat 100% 0;
+    background-size: 16px, 16px;
+    padding-right: 19px;
+}
+
+ul {
+    font-size: 1.5rem;
+    list-style-type: square;
+}
+
+li {
+    line-height: 2.5rem;
+}
+
+nav ul {
+    margin-top: 0.8rem;
+}
+
+nav li {
+    list-style-type: none;
+    border: 1px solid #a66;
+    margin-top: 2rem;
+}
+
+nav li a {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    line-height: 3.5em;
+    text-align: center;
+}
+
+nav li a:hover, nav li a:focus {
+    background-color: #a66;
+    color: white;
+}
+
+nav li a:active {
+    background-color: black;
+    color: white;
+}
