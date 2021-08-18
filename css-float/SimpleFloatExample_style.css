@@ -1,0 +1,15 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 2;
+    word-spacing: 0.1rem;
+}
+
+img {
+    float: left;
+    margin-right: 30px;
+}

@@ -1,0 +1,17 @@
+p {
+    width: 400px;
+    margin: 0 auto;
+}
+
+p::first-line {
+    text-transform: uppercase;
+}
+
+p::first-letter {
+    font-size: 3em;
+    border: 1px solid black;
+    background-color: red;
+    float: left;
+    padding: 2px;
+    margin-right: 4px;
+}
