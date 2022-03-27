@@ -1,1 +1,1 @@
-根据[MDN Web Doc](<https://developer.mozilla.org/zh-CN/docs/Learn>)的学习笔记
+根据[MDN Web Doc](<https://developer.mozilla.org/zh-CN/docs/Learn>)的学习笔记。

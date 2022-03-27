@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<canvas class="myCanvas">
+    <p>卧槽你的浏览器竟然不支持 canvas！</p>
+</canvas>
+<script>
+    let canvas = document.querySelector('.myCanvas');
+    let width = canvas.width = window.innerWidth;
+    let height = canvas.height = window.innerHeight;
+    let ctx  = canvas.getContext('2d');
+    ctx.fillStyle = 'rgb(0, 0, 0)';
+    ctx.fillRect(0, 0, width, height);
+</script>
+</body>
+</html>
